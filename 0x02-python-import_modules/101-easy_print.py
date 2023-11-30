@@ -1,2 +1,4 @@
 #!/usr/bin/python3
-print("#pythoniscool")
+import builtins
+
+builtins.__dict__['p''rin''t']("#pythoniscool")
